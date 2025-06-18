@@ -1,0 +1,11 @@
+tensorflow
+keras
+prophet
+stable-baselines3
+python-binance
+pandas
+numpy
+scikit-learn
+gymnasium
+python-dotenv
+plotly
