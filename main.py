@@ -247,7 +247,7 @@ def get_trending_symbols(limit=5):
     trending = [item['symbol'] for item in usdt_pairs[:limit]]
     return trending
 
-def run_multi_coin_auto(tp_pct=0.02, sl_pct=0.01, limit=5, source='binance', test_mode=True):
+def run_multi_coin_auto(tp_pct=0.02, sl_pct=0.01, limit=5, source='binance', test_mode=false):
     """
     Menjalankan bot trading otomatis untuk coin-coin trending
     
